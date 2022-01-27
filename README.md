@@ -95,9 +95,9 @@ func (c *SAPAPICaller) AsyncGetMaterialDocument(materialDocumentYear, materialDo
 }
 ```
 ## Output  
-本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
+本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP 入出庫伝票 の ヘッダデータ が取得された結果の JSON の例です。  
-以下の項目のうち、"MaterialDocumentYear" ～ "to_MaterialDocumentItem" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
+以下の項目のうち、"MaterialDocumentYear" ～ "to_MaterialDocumentItem" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
 {
@@ -119,6 +119,6 @@ func (c *SAPAPICaller) AsyncGetMaterialDocument(materialDocumentYear, materialDo
 			"to_MaterialDocumentItem": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MATERIAL_DOCUMENT_SRV/A_MaterialDocumentHeader(MaterialDocumentYear='2016',MaterialDocument='4900000121')/to_MaterialDocumentItem"
 		}
 	],
-	"time": "2021-12-21T14:36:45.909896+09:00"
+	"time": "2022-01-27T21:40:52.948079+09:00"
 }
 ```

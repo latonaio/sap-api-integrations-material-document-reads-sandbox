@@ -7,9 +7,9 @@
 			"MaterialDocumentYear": "2016",
 			"MaterialDocument": "4900000121",
 			"InventoryTransactionType": "WA",
-			"DocumentDate": "/Date(1470268800000)/",
-			"PostingDate": "/Date(1470268800000)/",
-			"CreationDate": "/Date(1470268800000)/",
+			"DocumentDate": "2016-08-04T09:00:00+09:00",
+			"PostingDate": "2016-08-04T09:00:00+09:00",
+			"CreationDate": "2016-08-04T09:00:00+09:00",
 			"CreationTime": "PT10H37M02S",
 			"MaterialDocumentHeaderText": "",
 			"ReferenceDocument": "",
@@ -17,5 +17,5 @@
 			"to_MaterialDocumentItem": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MATERIAL_DOCUMENT_SRV/A_MaterialDocumentHeader(MaterialDocumentYear='2016',MaterialDocument='4900000121')/to_MaterialDocumentItem"
 		}
 	],
-	"time": "2021-12-21T14:36:45.909896+09:00"
+	"time": "2022-01-27T21:43:29+09:00"
 }
