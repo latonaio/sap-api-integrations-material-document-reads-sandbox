@@ -115,17 +115,17 @@ type SDC struct {
 			IssuingOrReceivingStockType    string      `json:"IssuingOrReceivingStockType"`
 			IssgOrRcvgSpclStockInd         string      `json:"IssgOrRcvgSpclStockInd"`
 			IssuingOrReceivingValType      string      `json:"IssuingOrReceivingValType"`
-			IsCompletelyDelivered          interface{} `json:"IsCompletelyDelivered"`
+			IsCompletelyDelivered          bool        `json:"IsCompletelyDelivered"`
 			MaterialDocumentItemText       string      `json:"MaterialDocumentItemText"`
 			UnloadingPointName             string      `json:"UnloadingPointName"`
 			ShelfLifeExpirationDate        string      `json:"ShelfLifeExpirationDate"`
 			ManufactureDate                string      `json:"ManufactureDate"`
-			SerialNumbersAreCreatedAutomly interface{} `json:"SerialNumbersAreCreatedAutomly"`
+			SerialNumbersAreCreatedAutomly bool        `json:"SerialNumbersAreCreatedAutomly"`
 			Reservation                    string      `json:"Reservation"`
 			ReservationItem                string      `json:"ReservationItem"`
-			ReservationIsFinallyIssued     interface{} `json:"ReservationIsFinallyIssued"`
+			ReservationIsFinallyIssued     bool        `json:"ReservationIsFinallyIssued"`
 			IsAutomaticallyCreated         string      `json:"IsAutomaticallyCreated"`
-			GoodsMovementIsCancelled       interface{} `json:"GoodsMovementIsCancelled"`
+			GoodsMovementIsCancelled       bool        `json:"GoodsMovementIsCancelled"`
 			ReversedMaterialDocumentYear   string      `json:"ReversedMaterialDocumentYear"`
 			ReversedMaterialDocument       string      `json:"ReversedMaterialDocument"`
 			ReversedMaterialDocumentItem   string      `json:"ReversedMaterialDocumentItem"`
